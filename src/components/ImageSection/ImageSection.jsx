@@ -3,7 +3,7 @@ import "./ImageSection.scss";
 import gsap from "gsap";
 import VideoSection from "../VideoSection/VideoSection";
 
-const ImageSection = () => {
+function ImageSection() {
   const textRef = useRef(null);
 
   useEffect(() => {

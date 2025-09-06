@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import gsap from "gsap";
 import "./Simplify.scss";
 
-const Simplify = () => {
+function Simplify() {
   const textRef = useRef(null);
   useEffect(() => {
     if (textRef.current) {

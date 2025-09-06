@@ -61,7 +61,7 @@ const tabData = [
   },
 ];
 
-const PaymentTabs = () => {
+function PaymentTabs() {
   const [activeTab, setActiveTab] = useState("payments");
   const activeContent = tabData.find((tab) => tab.id === activeTab);
 

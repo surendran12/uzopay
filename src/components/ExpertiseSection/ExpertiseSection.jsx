@@ -47,7 +47,9 @@ const expertiseData = [
   }
 ];
 
-const ExpertiseSection = () => {
+
+
+function ExpertiseSection() {
   const settings = {
     dots: true,
     infinite: true,

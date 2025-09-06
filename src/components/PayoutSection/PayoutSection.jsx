@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import "./PayoutSection.scss";
 import gsap from "gsap";
 
-const PayoutSection = () => {
+function PayoutSection() {
 
   const imgRef = useRef(null);
 

@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import "./TextView.scss";
 import gsap from "gsap";
 
-const TextView = () => {
+function TextView() {
   const textRef = useRef(null);
   useEffect(() => {
     if (textRef.current) {

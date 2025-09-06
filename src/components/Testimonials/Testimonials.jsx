@@ -43,7 +43,7 @@ const testimonials = [
   },
 ];
 
-const Testimonials = () => {
+function Testimonials() {
   const settings = {
     dots: false,
     infinite: true,

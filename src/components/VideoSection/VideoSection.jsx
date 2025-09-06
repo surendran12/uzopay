@@ -2,7 +2,7 @@ import React from "react";
 import "./VideoSection.scss";
 import demoVideo from "../../assets/videoplayer.mp4";
 
-const VideoSection = () => {
+function VideoSection() {
   return (
     <section className="video-section">
       <div className="video-wrapper">

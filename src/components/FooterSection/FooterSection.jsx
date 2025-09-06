@@ -2,7 +2,7 @@ import React from "react";
 import { FaFacebookF, FaXTwitter, FaInstagram } from "react-icons/fa6";
 import "./FooterSection.scss";
 
-const FooterSection = () => {
+function FooterSection() {
   return (
     <footer className="footer">
       <div className="footer-container">

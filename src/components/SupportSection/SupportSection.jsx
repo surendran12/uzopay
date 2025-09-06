@@ -26,7 +26,7 @@ const cards = [
   },
 ];
 
-const SupportSection = () => {
+function SupportSection() {
   const textRef = useRef(null);
   useEffect(() => {
     if (textRef.current) {

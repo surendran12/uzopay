@@ -2,7 +2,7 @@ import React from "react";
 import "./FooterBottom.scss";
 
 
-const FooterBottom = () => {
+function FooterBottom() {
   
   return (
     <div className="footer-bottom">
