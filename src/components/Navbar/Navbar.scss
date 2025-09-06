@@ -1,0 +1,75 @@
+@import "../../styles/variables.scss";
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  border:1px solid #44C7FC;
+  border-radius: 80px;
+  max-width: 960px;
+  margin: 0 auto;
+
+  .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: $primary-color;
+  }
+
+  .nav-links {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+
+    li {
+      cursor: pointer;
+      position: relative;
+      &:nth-child(2) {
+        display: flex;
+            align-items: center;
+            gap: 5px;
+        
+      }
+
+      &:hover {
+        color: $secondary-color;
+      }
+ 
+      &:active {
+        color: $secondary-color;
+      }
+    }
+  }
+
+  .active {
+    color: $secondary-color;
+  }
+
+  .burger {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+
+  @media (max-width: 768px) {
+    .nav-links {
+      position: absolute;
+      top: 70px;
+      right: 0;
+      flex-direction: column;
+      background: #1f2937;
+      width: 200px;
+      padding: 1rem;
+      transform: translateX(100%);
+      transition: 0.3s ease-in-out;
+    }
+
+    .nav-links {
+      display: none;
+    }
+
+    .burger {
+      display: block;
+    }
+  }
+}

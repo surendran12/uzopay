@@ -1,0 +1,50 @@
+.glow-text {
+    background: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+  
+    h1 {
+      font-size: 90px;
+      font-weight: 700;
+      line-height: 140%;
+      color: #bcaeff;
+      margin: 0 auto;
+      text-align: left;
+    }
+  
+    p {
+      margin-top: 2rem;
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #222;
+    }
+  }
+
+  .glow-text {
+    padding: 100px 20px;
+  }
+  
+    @media (max-width: 768px) {
+      .glow-text h1 {
+        font-size: 48px;
+
+      }
+    }
+
+
+  .animated-text {
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 1.4;
+  }
+  
+  .char {
+
+    opacity: 0; 
+  }
+  
+  

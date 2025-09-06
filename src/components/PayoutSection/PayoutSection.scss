@@ -1,0 +1,106 @@
+.payout-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 0;
+    color: #fff;
+    flex-wrap: wrap;
+    text-align: left;
+    background-image: url("../../assets/payoutshadow.png");
+  
+    .content {
+      flex: 1;
+      min-width: 300px;
+      max-width: 600px;
+  
+      .badge {
+        display: inline-block;
+        background: rgba(20, 40, 70, 0.6);
+        border: 1px solid rgba(120, 180, 255, 0.3);
+        border-radius: 20px;
+        padding: 6px 16px;
+        font-size: 14px;
+        margin-bottom: 1.5rem;
+      }
+  
+      h2 {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+        color: #dcdcdc;
+      }
+  
+      .features {
+        .feature {
+          margin-bottom: 1.5rem;
+  
+          h4 {
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+            color: #fff;
+          }
+  
+          p {
+            font-size: 0.95rem;
+            color: #aaa;
+          }
+        }
+      }
+  
+      .cta-btn {
+        margin-top: 1.5rem;
+        padding: 12px 28px;
+        font-size: 1rem;
+        font-weight: 600;
+        border-radius: 50px;
+        cursor: pointer;
+        border: 1px solid rgba(120, 180, 255, 0.8);
+        background: linear-gradient(90deg, #233d82, #3d2b78);
+        color: #fff;
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        transition: all 0.3s ease;
+  
+        &:hover {
+          background: linear-gradient(90deg, #3d2b78, #233d82);
+          transform: translateY(-3px);
+        }
+      }
+    }
+  
+
+  }
+  
+  @media (max-width: 992px) {
+    .payout-section {
+      flex-direction: column;
+      text-align: center;
+  
+      .content {
+        max-width: 100%;
+        margin-bottom: 2rem;
+      }
+  
+      .hex-grid {
+        grid-template-columns: repeat(2, 100px);
+        grid-gap: 15px;
+      }
+
+      img {
+        width: 100%;
+      }
+
+      .payment-section {
+        padding: 3rem 0;
+      }
+
+   
+    }
+  }
+
+  .animated-img {
+    width: 100%;
+    border-radius: 20px;
+  }
+
+  

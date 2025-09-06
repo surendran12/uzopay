@@ -1,0 +1,124 @@
+.footer {
+    background: #000;
+    color: #fff;
+    padding: 3rem 2rem;
+  
+    .footer-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin: 0 auto;
+      gap: 2rem;
+      text-align: left;
+    }
+  
+    /* Left About Section */
+    .footer-about {
+      flex: 1 1 300px;
+      max-width: 350px;
+  
+      .footer-logo {
+        font-size: 1.8rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+      }
+  
+      p {
+        font-size: 0.95rem;
+        line-height: 1.6;
+        margin-bottom: 1.5rem;
+        color: #bdbdbd;
+      }
+  
+      .footer-socials {
+        display: flex;
+        gap: 1rem;
+  
+        a {
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: #fff;
+          transition: all 0.3s ease;
+  
+          &:hover {
+            border-color: #33C4FF;
+          }
+  
+          svg {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  
+    /* Footer Links Section */
+    .footer-links {
+      flex: 2 1 600px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 2rem;
+  
+      .footer-column {
+        h4 {
+          font-size: 1.1rem;
+          font-weight: 600;
+          margin-bottom: 1rem;
+        }
+  
+        ul {
+          list-style: none;
+          padding: 0;
+          margin: 0;
+  
+          li {
+            margin-bottom: 0.6rem;
+  
+            a {
+              color: #bdbdbd;
+              text-decoration: none;
+              font-size: 0.95rem;
+              transition: color 0.3s ease;
+  
+              &:hover {
+                color: #8d44ff;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+    }
+
+    .footer .footer-links {
+        display: block;
+    }
+  
+    .footer-links {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .footer-links {
+      grid-template-columns: 1fr;
+    }
+  
+    .footer-about {
+      text-align: center;
+  
+      .footer-socials {
+        justify-content: center;
+      }
+    }
+  }
+  

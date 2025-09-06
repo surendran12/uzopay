@@ -1,0 +1,200 @@
+@import "../../styles/variables.scss";
+
+.banner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  padding: 4rem 0 0;
+
+  .text {
+    text-align: left;
+    .tagline {
+        padding: 10px 20px;
+        border-radius: 50px;
+        font-size: 16px;
+        color: #dcdcdc;
+        background: #0b0b0b;
+        border: 1px solid;
+        border-image-slice: 1;
+        border-image-source: linear-gradient(10deg, #101010, #1E7699);
+        cursor: pointer;
+        width: max-content;
+      
+    }
+    h2 {
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin-bottom: 1.5rem;
+    }
+    .desc {
+      color: $text-color;
+      margin-bottom: 2rem;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 1rem;
+
+      .btn {
+        padding: 0.8rem 1.5rem;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        transition: 0.3s;
+
+        &.primary {
+          background: $primary-color;
+          color: $primary-color;
+        }
+
+        &.secondary {
+          background: $secondary-color;
+          color: $primary-color;
+        }
+      }
+    }
+  }
+
+  .image {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-image: url("../../assets/Heroshadow.png");
+    background: radial-gradient(
+        ellipse at center,
+        rgba(128, 0, 255, 0.5) 0%,
+        transparent 70%
+      );
+  
+
+
+
+    img {
+      width: 100%;
+    }
+
+    .label {
+      position: absolute;
+      background: rgba(31, 41, 55, 0.8);
+      padding: 0.4rem 0.8rem;
+      border-radius: 8px;
+      font-size: 0.9rem;
+
+      &.top {
+        top: 25%;
+        right:5%;
+      }
+      &.left {
+        left: 20%;
+        top: 55%;
+      }
+      &.bottom {
+        bottom: 45%;
+        right: 12%;
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+
+  }
+}
+
+.gradient-btn {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 28px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #ffffff;
+    background: #161016; 
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 1;
+  
+    span {
+      position: relative;
+      z-index: 2;
+    }
+  
+    .icon {
+      font-size: 16px;
+      position: relative;
+      z-index: 2;
+    }
+  
+    &::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      border-radius: 50px;
+      padding: 2px;
+      background: linear-gradient(90deg, #101010, #1E7699);
+        -webkit-mask: 
+          linear-gradient(#fff 0 0) content-box, 
+          linear-gradient(#fff 0 0);
+      -webkit-mask-composite: xor;
+      mask-composite: exclude;
+      z-index: 1;
+    }
+  
+    &:hover {
+      background: #1a1a1a;
+      &::before {
+        background: linear-gradient(90deg, #1E7699, #101010);
+      }
+    }
+  }
+  
+
+  .gradient-fill-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 32px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    cursor: pointer;
+    border: 2px solid transparent;
+    background: linear-gradient(180deg, #2a5bd7, #4d1d92);
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+  
+    .icon {
+      font-size: 16px;
+    }
+  
+    &::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      border-radius: 50px;
+      padding: 2px;
+      background: linear-gradient(180deg, #5d8cff, #7d47e9);
+      -webkit-mask: 
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+      -webkit-mask-composite: xor;
+      mask-composite: exclude;
+      pointer-events: none;
+      z-index: -1;
+    }
+  
+    &:hover {
+      background: linear-gradient(180deg, #4d1d92, #2a5bd7);
+      &::before {
+        background: linear-gradient(180deg, #7d47e9, #5d8cff);
+      }
+    }
+  }
+  
