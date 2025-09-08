@@ -48,7 +48,7 @@ function Banner() {
       </div>
 
       <div className="image">
-        <img src="https://github.com/surendran12/uzopay/blob/main/src/assets/Hero-Img.png" alt="" />
+        <img src="https://raw.githubusercontent.com/surendran12/uzopay/main/src/assets/Hero-Img.png" alt="" />
         <span className="label top">Sales Product Screening</span>
         <span className="label left">Payout Process</span>
         <span className="label bottom">Transactions</span>
