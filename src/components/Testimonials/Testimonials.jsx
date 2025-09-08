@@ -75,7 +75,8 @@ function Testimonials() {
             <div className="testimoialbg">
             <p className="feedback">{item.feedback}</p>
             <div className="user-info">
-              <img src={item.img} alt={item.name} className="avatar" />
+              {/* <img src={item.img} alt={item.name} className="avatar" /> */}
+               <img src="https://raw.githubusercontent.com/surendran12/uzopay/main/src/assets/client.png" alt="AI Robot" />
               <div>
                 <h4>{item.name}</h4>
                 <span>{item.role}</span>

@@ -74,11 +74,11 @@ function ExpertiseSection() {
         {expertiseData.map((item) => (
           <div className="expertise-card" key={item.id}>
             <div className="card-inner">
-             <div> <img src="https://github.com/surendran12/uzopay/blob/main/src/assets/tick.png" alt="" /></div>
+             <div> <img src="https://raw.githubusercontent.com/surendran12/uzopay/main/src/assets/tick.png" alt="" /></div>
               <img src={item.img} alt={item.title} className="card-img" />
               <h3 className="card-title">{item.title}</h3>
               <p className="card-content">{item.content}</p>
-              <div className="view"> <img src="https://github.com/surendran12/uzopay/blob/main/src/assets/arrow.png" alt="" /></div>
+              <div className="view"> <img src="https://raw.githubusercontent.com/surendran12/uzopay/main/src/assets/arrow.png" alt="" /></div>
             </div>
           </div>
         ))}
