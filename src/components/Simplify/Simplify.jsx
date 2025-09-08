@@ -27,7 +27,7 @@ function Simplify() {
     <section className="simplify-section">
       <div className="simplify-left">
         <span className="tag">Reliable, and Efficient</span>
-        <span> <img src="src/assets/SimplifyArrow.svg" alt="" /></span>
+        <span> <img src="https://github.com/surendran12/uzopay/blob/main/src/assets/SimplifyArrow.svg" alt="" /></span>
         <h1 ref={textRef} className="animated-text">
           Simplify the <br /> payments process
         </h1>
@@ -37,7 +37,7 @@ function Simplify() {
       {/* Right Content */}
       <div className="simplify-right">
         <div className="card-container">
-        <span> <img src="src/assets/SimplifySettings.png" alt="" /></span>
+        <span> <img src="https://github.com/surendran12/uzopay/blob/main/src/assets/SimplifySettings.png" alt="" /></span>
         </div>
       </div>
 

@@ -66,7 +66,7 @@ function SupportSection() {
   <div className="row">
     <div className="col left">
       <div className="card">
-      <img src="src/assets/Video.png" alt="AI Robot" />
+      <img src="https://github.com/surendran12/uzopay/blob/main/src/assets/Video.png" alt="AI Robot" />
       <h3 className="gradient-text">
       Optimize <span>customer journeys</span>
     </h3>
@@ -88,7 +88,7 @@ function SupportSection() {
         </p>
         <h3></h3>
         <button>Learn more →</button>
-    <p> <img src="src/assets/Video1.png" alt="AI Robot" /></p>
+    <p> <img src="https://github.com/surendran12/uzopay/blob/main/src/assets/Video1.png" alt="AI Robot" /></p>
        
        
      
@@ -112,7 +112,7 @@ function SupportSection() {
         </p>
        
         <button>Learn more →</button>
-    <p> <img src="src/assets/Video3.png" alt="" /></p>
+    <p> <img src="https://github.com/surendran12/uzopay/blob/main/src/assets/Video3.png" alt="" /></p>
      <br/>
       </div>
     </div>
@@ -128,7 +128,7 @@ function SupportSection() {
         </p>
         <button>Explore more →</button>
         <h3></h3>
-        <img src="src/assets/Video4.png" alt="AI Robot" />
+        <img src="https://github.com/surendran12/uzopay/blob/main/src/assets/Video4.png" alt="AI Robot" />
 
       </div>
     </div>

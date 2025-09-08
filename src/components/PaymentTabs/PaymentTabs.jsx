@@ -102,7 +102,7 @@ function PaymentTabs() {
           <button className="cta-btn">Get Started →</button>
         </div>
         <div className="tab-right">
-        <span> <img src="src/assets/paymentmethod.png" alt="" /></span>
+        <span> <img src="https://github.com/surendran12/uzopay/blob/main/src/assets/paymentmethod.png" alt="" /></span>
         </div>
       </div>
       </div>

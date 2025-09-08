@@ -65,7 +65,7 @@ function PayoutSection() {
       </div>
 
       <div className="hex-grid">
-      <img src="src/assets/Hex.png" alt=""ref={imgRef} className="animated-img"/>
+      <img src="https://github.com/surendran12/uzopay/blob/main/src/assets/Hex.png" alt=""ref={imgRef} className="animated-img"/>
       </div>
     </section>
   );
