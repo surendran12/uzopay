@@ -99,6 +99,8 @@
     }
   }
 
+  
+
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
 
@@ -153,6 +155,25 @@
       }
     }
   }
+
+    @media (max-width: 992px) {
+      .banner {
+        .image {
+    .label {
+      &.top {
+        top: 5%;
+        right:5%;
+      }
+      &.left {
+        left: 0%;
+        top: 85%;
+      }
+    }
+    }
+  }
+  }
+
+
   
 
   .gradient-fill-btn {
@@ -198,4 +219,6 @@
       }
     }
   }
+  
+
   

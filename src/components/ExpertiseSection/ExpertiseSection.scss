@@ -123,8 +123,14 @@
   }
 
 @media (max-width: 992px) {
+  .card-inner {
   img {
     width: auto;
+  }
+  }
+  
+  .expertise-section .expertise-header .main-title {
+    font-size: 30px;
   }
 }
   

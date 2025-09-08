@@ -27,6 +27,11 @@
   .layout {
     padding: 15px;
   }
+
+  .slick-initialized .slick-slide {
+    display: inline-block;
+    width: 100% !important;
+}
 }
 
 .slick-track {

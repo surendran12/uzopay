@@ -133,9 +133,16 @@
     }
   }
 
-     @media (max-width: 768px) {
-           img {
-            width: 100%;
+   @media (max-width: 992px) {
+          .simplify-left {
+             img {
+                 width: auto;
+              }
+          }  
+          .simplify-right {
+          img {
+                 width: 100%;
+              }
           }
-      }
+          }
   

@@ -19,10 +19,6 @@
       }
     }
   
-
-    .testimoialbg {
-
-    }
     .testimonial-slider {
       .testimonial-card {
         
@@ -141,3 +137,12 @@
       transform: translateX(120%);
     }
   }
+
+     @media (max-width: 992px) {
+      .testimonials .header .main-title {
+        font-size: 30px;
+      }
+      .testimonials {
+            padding: 4rem 1rem;
+      }
+     }
